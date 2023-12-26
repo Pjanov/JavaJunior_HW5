@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="chat-client_3" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.client.Program" />
+    <module name="chat-client" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="ru.geekbrains.chat.client.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="ru.geekbrains.chat.client.Program" />
+        <option name="ENABLED" value="false" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
