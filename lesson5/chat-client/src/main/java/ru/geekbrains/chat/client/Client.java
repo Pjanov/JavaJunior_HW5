@@ -75,23 +75,4 @@ public class Client {
             e.printStackTrace();
         }
     }
-
-    // В методе Client класса Client добавим новый метод для отправки личных сообщений
-
-    /**
-     * Отправить личное сообщение
-     *
-     * @param recipient получатель
-     * @param message   сообщение
-     */
-    public void sendPrivateMessage(String recipient, String message) {
-        try {
-            bufferedWriter.write("@" + recipient + " " + name + ": " + message);
-            bufferedWriter.newLine();
-            bufferedWriter.flush();
-        } catch (IOException e) {
-            closeEverything(socket, bufferedReader, bufferedWriter);
-        }
-    }
-
 }
